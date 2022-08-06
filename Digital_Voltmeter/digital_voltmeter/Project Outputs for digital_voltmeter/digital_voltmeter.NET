@@ -1,0 +1,224 @@
+Wire List
+
+<<< Component List >>>
+CD4001                          DD1            SOP65P640X120-14N
+LM311N                          DD2            LM311N
+TC-5971                         DD3            TC5971
+TC-5971                         DD4            TC5971
+TC-5971                         DD5            TC5971
+CD4511B                         DD6            SOIC127P780X200-16N
+CD4511B                         DD7            SOIC127P780X200-16N
+CD4511B                         DD8            SOIC127P780X200-16N
+HD-1106                         HG1            ACSX56-41
+HD-1106                         HG2            ACSX56-41
+HD-1106                         HG3            ACSX56-41
+Input connector                 XP1            PLS-1
+Power connector                 XP2            PLS-2
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00039] NetDD8_15
+        DD8        15      F              PASSIVE     CD4511B 
+        HG3        6       f              PASSIVE     HD-1106 
+
+[00038] NetDD8_14
+        DD8        14      G              PASSIVE     CD4511B 
+        HG3        11      g              PASSIVE     HD-1106 
+
+[00037] NetDD8_13
+        DD8        13      E              PASSIVE     CD4511B 
+        HG3        7       e              PASSIVE     HD-1106 
+
+[00036] NetDD8_12
+        DD8        12      D              PASSIVE     CD4511B 
+        HG3        8       d              PASSIVE     HD-1106 
+
+[00035] NetDD8_11
+        DD8        11      C              PASSIVE     CD4511B 
+        HG3        10      c              PASSIVE     HD-1106 
+
+[00034] NetDD8_10
+        DD8        10      B              PASSIVE     CD4511B 
+        HG3        13      b              PASSIVE     HD-1106 
+
+[00033] NetDD8_9
+        DD8        9       A              PASSIVE     CD4511B 
+        HG3        1       a              PASSIVE     HD-1106 
+
+[00031] NetDD8_6
+        DD8        6       S              PASSIVE     CD4511B 
+        DD8        7       K              PASSIVE     CD4511B 
+
+[00030] NetDD7_15
+        DD7        15      F              PASSIVE     CD4511B 
+        HG2        6       f              PASSIVE     HD-1106 
+
+[00029] NetDD7_14
+        DD7        14      G              PASSIVE     CD4511B 
+        HG2        11      g              PASSIVE     HD-1106 
+
+[00028] NetDD7_13
+        DD7        13      E              PASSIVE     CD4511B 
+        HG2        7       e              PASSIVE     HD-1106 
+
+[00027] NetDD7_12
+        DD7        12      D              PASSIVE     CD4511B 
+        HG2        8       d              PASSIVE     HD-1106 
+
+[00026] NetDD7_11
+        DD7        11      C              PASSIVE     CD4511B 
+        HG2        10      c              PASSIVE     HD-1106 
+
+[00025] NetDD7_10
+        DD7        10      B              PASSIVE     CD4511B 
+        HG2        13      b              PASSIVE     HD-1106 
+
+[00024] NetDD7_9
+        DD7        9       A              PASSIVE     CD4511B 
+        HG2        1       a              PASSIVE     HD-1106 
+
+[00022] NetDD7_6
+        DD7        6       S              PASSIVE     CD4511B 
+        DD7        7       K              PASSIVE     CD4511B 
+
+[00021] NetDD6_15
+        DD6        15      F              PASSIVE     CD4511B 
+        HG1        6       f              PASSIVE     HD-1106 
+
+[00020] NetDD6_14
+        DD6        14      G              PASSIVE     CD4511B 
+        HG1        11      g              PASSIVE     HD-1106 
+
+[00019] NetDD6_13
+        DD6        13      E              PASSIVE     CD4511B 
+        HG1        7       e              PASSIVE     HD-1106 
+
+[00018] NetDD6_12
+        DD6        12      D              PASSIVE     CD4511B 
+        HG1        8       d              PASSIVE     HD-1106 
+
+[00017] NetDD6_11
+        DD6        11      C              PASSIVE     CD4511B 
+        HG1        10      c              PASSIVE     HD-1106 
+
+[00016] NetDD6_10
+        DD6        10      B              PASSIVE     CD4511B 
+        HG1        13      b              PASSIVE     HD-1106 
+
+[00015] NetDD6_9
+        DD6        9       A              PASSIVE     CD4511B 
+        HG1        1       a              PASSIVE     HD-1106 
+
+[00013] NetDD6_6
+        DD6        6       S              PASSIVE     CD4511B 
+        DD6        7       K              PASSIVE     CD4511B 
+
+[00012] NetDD5_1
+        DD5        1       A              PASSIVE     TC-5971 
+        DD5        4       S1             PASSIVE     TC-5971 
+        DD5        5       S2             PASSIVE     TC-5971 
+        DD5        6       S4             PASSIVE     TC-5971 
+        DD5        7       S8             PASSIVE     TC-5971 
+        DD5        8       GND            PASSIVE     TC-5971 
+        DD5        9       R              PASSIVE     TC-5971 
+
+[00011] NetDD4_1
+        DD4        1       A              PASSIVE     TC-5971 
+        DD4        4       S1             PASSIVE     TC-5971 
+        DD4        5       S2             PASSIVE     TC-5971 
+        DD4        6       S4             PASSIVE     TC-5971 
+        DD4        7       S8             PASSIVE     TC-5971 
+        DD4        8       GND            PASSIVE     TC-5971 
+        DD4        9       R              PASSIVE     TC-5971 
+
+[00010] NetDD3_1
+        DD3        1       A              PASSIVE     TC-5971 
+        DD3        4       S1             PASSIVE     TC-5971 
+        DD3        5       S2             PASSIVE     TC-5971 
+        DD3        6       S4             PASSIVE     TC-5971 
+        DD3        7       S8             PASSIVE     TC-5971 
+        DD3        8       GND            PASSIVE     TC-5971 
+        DD3        9       R              PASSIVE     TC-5971 
+
+[00009] NetDD2_4
+        DD2        4       -U             PASSIVE     LM311N 
+        DD2        6       OE             PASSIVE     LM311N 
+
+[00008] NetDD2_3
+        DD2        3       W1             PASSIVE     LM311N 
+        XP1        1       1              PASSIVE     Input connector 
+
+[00007] NetDD2_2
+        DD2        2       W2             PASSIVE     LM311N 
+        DD3        11      8              PASSIVE     TC-5971 
+        DD3        12      4              PASSIVE     TC-5971 
+        DD3        13      2              PASSIVE     TC-5971 
+        DD3        14      1              PASSIVE     TC-5971 
+        DD4        2       C              PASSIVE     TC-5971 
+        DD4        11      8              PASSIVE     TC-5971 
+        DD4        12      4              PASSIVE     TC-5971 
+        DD4        13      2              PASSIVE     TC-5971 
+        DD4        14      1              PASSIVE     TC-5971 
+        DD5        2       C              PASSIVE     TC-5971 
+        DD5        11      8              PASSIVE     TC-5971 
+        DD5        12      4              PASSIVE     TC-5971 
+        DD5        13      2              PASSIVE     TC-5971 
+        DD5        14      1              PASSIVE     TC-5971 
+        DD6        2       4              PASSIVE     CD4511B 
+        DD6        3       2              PASSIVE     CD4511B 
+        DD6        4       8              PASSIVE     CD4511B 
+        DD6        5       1              PASSIVE     CD4511B 
+        DD7        2       4              PASSIVE     CD4511B 
+        DD7        3       2              PASSIVE     CD4511B 
+        DD7        4       8              PASSIVE     CD4511B 
+        DD7        5       1              PASSIVE     CD4511B 
+        DD8        2       4              PASSIVE     CD4511B 
+        DD8        3       2              PASSIVE     CD4511B 
+        DD8        4       8              PASSIVE     CD4511B 
+        DD8        5       1              PASSIVE     CD4511B 
+
+[00006] NetDD1_10
+        DD1        10      E\+\F\         PASSIVE     CD4001 
+        DD1        12      G              PASSIVE     CD4001 
+        DD1        13      H              PASSIVE     CD4001 
+        DD1        14      VCC            PASSIVE     CD4001 
+        DD2        8       +U             PASSIVE     LM311N 
+        DD3        3       N              PASSIVE     TC-5971 
+        DD3        16      VCC            PASSIVE     TC-5971 
+        DD4        3       N              PASSIVE     TC-5971 
+        DD4        16      VCC            PASSIVE     TC-5971 
+        DD5        3       N              PASSIVE     TC-5971 
+        DD5        16      VCC            PASSIVE     TC-5971 
+        DD6        16      VCC            PASSIVE     CD4511B 
+        DD7        16      VCC            PASSIVE     CD4511B 
+        DD8        16      VCC            PASSIVE     CD4511B 
+        HG1        3       3              PASSIVE     HD-1106 
+        HG2        3       3              PASSIVE     HD-1106 
+        HG3        3       3              PASSIVE     HD-1106 
+        XP2        1       1              PASSIVE     Power connector 
+
+[00005] NetDD1_9
+        DD1        9       F              PASSIVE     CD4001 
+        DD2        7       OK             PASSIVE     LM311N 
+
+[00004] NetDD1_8
+        DD1        8       E              PASSIVE     CD4001 
+        DD1        11      G\+\H\         PASSIVE     CD4001 
+        DD6        1       X              PASSIVE     CD4511B 
+        DD7        1       X              PASSIVE     CD4511B 
+        DD8        1       X              PASSIVE     CD4511B 
+
+[00002] NetDD1_1
+        DD1        1       A              PASSIVE     CD4001 
+        DD1        2       B              PASSIVE     CD4001 
+        DD1        3       A\+\B\         PASSIVE     CD4001 
+        DD1        4       C\+\D\         PASSIVE     CD4001 
+        DD1        5       C              PASSIVE     CD4001 
+        DD1        6       D              PASSIVE     CD4001 
+        DD3        2       C              PASSIVE     TC-5971 
+
+[00001] GND
+        XP2        2       2              PASSIVE     Power connector 
+

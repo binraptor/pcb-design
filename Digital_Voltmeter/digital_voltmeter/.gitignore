@@ -1,0 +1,13 @@
+*.$$$Preview
+*.SchDocPreview
+*.NETPreview
+*.nsxPreview
+__Previews
+
+History
+
+*.LOG
+Project Logs for*
+
+*.drc
+*.html
